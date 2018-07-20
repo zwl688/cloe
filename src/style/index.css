@@ -1,0 +1,111 @@
+html,body,#root,.router,.App{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+.header{
+	width: 100%;
+	height: 1.5rem;
+	background: #dfdfd6;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.header ul{
+	width: 50%;
+	height: 1.5rem;
+	display: flex;
+	margin-left: 25%;
+	flex-direction: row;
+}
+.header ul li{
+	flex: 1;
+	text-align: center;
+	line-height: 1.5rem;
+	font-size: 0.32rem;
+	color: #705c50;
+	font-weight: bold;
+}
+.select{
+	border-bottom: 3px solid #ccc;
+}
+.Section{
+	flex: 1;
+	
+}
+.odiv{
+	background: #f6f6f6;
+	margin: 8px 0px;
+	padding: 20px;
+	color: #727272;
+}
+.odiv .qu{
+	color: #000;
+}
+.iconfont{
+	float: right;
+	color: red;
+	margin-right: 10px;
+}
+.se{
+	color: #000;
+	position: fixed;
+	bottom: 1.7rem;
+	right: 0;
+	font-size: 20px !important;
+	transition: all 5s linear 2s;
+}
+.footer{
+	width: 100%;
+	height: 1.5rem;
+	border-top: 1px solid #e1e1e1;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	
+}
+.footer ul{
+	width: 100%;
+	height: 1.5rem;
+	display: flex;
+	flex-direction: row;
+}
+.footer ul li{
+	flex: 1;
+	text-align: center;
+	margin-top: 0.3rem;
+	color: #d2d2d2;
+}
+.footer ul li img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.footer ul li img,p:active{
+	color: #6c574a;
+}
+.uls{
+	width: 100%;
+	height: 100%;
+	text-indent: 0.3rem;
+	font-size:0.3rem;
+	line-height: 0.5rem;
+}
+.uls ul{
+	margin-top: 0.3rem;
+	width: 100%;
+	background: #f6f6f6;
+}
+.uls ul li img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.uls ul li:last-child{
+	float: right;
+	
+}
+.uls ul li:last-child img{
+	margin-right: 0.3rem;
+}
